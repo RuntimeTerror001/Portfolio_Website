@@ -116,3 +116,7 @@
     flex-direction: column;
   }
 }
+.hero-connect {
+  text-decoration: none;
+  color: inherit;
+}

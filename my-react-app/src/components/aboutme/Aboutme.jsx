@@ -4,7 +4,7 @@ import profile_img from "../../assets/profile_img.jpg";
 
 function Aboutme() {
   return (
-    <div className="aboutme">
+    <div id="about"className="aboutme">
       <h1 className="about-title">About Me</h1>
 
       <div className="about-card">
