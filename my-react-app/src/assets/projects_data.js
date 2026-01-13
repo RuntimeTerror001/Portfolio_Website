@@ -1,5 +1,5 @@
 const projects_Data = [
-  {
+  /*{
     sno: 1,
     title: "Portfolio Website",
     description: "A personal portfolio built using React.",
@@ -10,12 +10,12 @@ const projects_Data = [
     title: "Task Manager",
     description: "A simple task management app.",
     github: "https://github.com/your-username/task-manager"
-  },
+  },*/
   {
-    sno: 3,
+    sno: 1,
     title: "Weather App",
     description: "Weather app using API.",
-    github: "https://github.com/your-username/weather-app"
+    github: "https://github.com/RuntimeTerror001/Weather-Web-Application"
   }
 ];
 
