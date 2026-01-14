@@ -17,7 +17,15 @@ function Hero() {
                 </p>
                <div className="hero-actions">
   <a href="contact" className="hero-connect">Connect With Me</a>
-  <div className="hero-resume">My Resume</div>
+<a 
+  href="https://drive.google.com/file/d/1vcXY7W-vzQHcnsSlk8WuH9D4J6zAHQBf/view?usp=sharing"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="hero-resume"
+>
+  My Resume
+</a>
+
 </div>
 
             </div>
