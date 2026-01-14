@@ -4,18 +4,20 @@ const projects_Data = [
     title: "Portfolio Website",
     description: "A personal portfolio built using React.",
     github: "https://github.com/your-username/portfolio"
-  },
-  {
-    sno: 2,
-    title: "Task Manager",
-    description: "A simple task management app.",
-    github: "https://github.com/your-username/task-manager"
   },*/
   {
     sno: 1,
+    title: "Pomodoro Timer",
+    description: "A modern Pomodoro timer built with React, featuring accurate time tracking, break cycles, and sound alerts for focused productivity.",
+    github: "https://github.com/RuntimeTerror001/Pomodoro-Timer",
+    live: ""
+  },
+  {
+    sno: 2,
     title: "Weather App",
-    description: "Weather app using API.",
-    github: "https://github.com/RuntimeTerror001/Weather-Web-Application"
+    description: "A weather forecasting web app built with API integration to display live weather data and a 5-day outlook.",
+    github: "https://github.com/RuntimeTerror001/Weather-Web-Application",
+    live: ""
   }
 ];
 

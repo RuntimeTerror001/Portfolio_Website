@@ -30,7 +30,7 @@ function Projects() {
                 
               </a>
                  <a
-                href={project.github}
+                href={project.live}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="project-link"
