@@ -18,7 +18,7 @@ function Hero() {
                <div className="hero-actions">
   <a href="contact" className="hero-connect">Connect With Me</a>
 <a 
-  href="https://drive.google.com/file/d/1vcXY7W-vzQHcnsSlk8WuH9D4J6zAHQBf/view?usp=sharing"
+  href="https://drive.google.com/file/d/1ksR8EJhN9Zk5jHsMtugYAboqxT4EJnZg/view?usp=sharing"
   target="_blank"
   rel="noopener noreferrer"
   className="hero-resume"
