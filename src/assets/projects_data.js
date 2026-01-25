@@ -10,7 +10,7 @@ const projects_Data = [
     title: "Pomodoro Timer",
     description: "A modern Pomodoro timer built with React, featuring accurate time tracking, break cycles, and sound alerts for focused productivity.",
     github: "https://github.com/RuntimeTerror001/Pomodoro-Timer",
-    live: ""
+    live: "https://pomodorotimer-beta.vercel.app/"
   },
   {
     sno: 2,
