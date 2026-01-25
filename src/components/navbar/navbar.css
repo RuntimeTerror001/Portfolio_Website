@@ -1,54 +1,96 @@
-.navbar{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 10px 170px;
-}
-.navbar h1{
-    font-style:italic;
-    font-family: 'Inter', sans-serif;
-    font-weight: bold;
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 8px 130px; /* reduced from 170px */
 }
 
-.nav-menu{
-    display: flex;
-    align-items: center;
-    list-style: none;
-    gap: 60px;
-    font-size: 20px;
+/* Logo / name */
+.navbar h1 {
+  font-style: italic;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 26px; /* scaled down */
 }
 
-.nav-connect{
-    padding: 20px 40px;
-    border-radius: 50px;
-    background: linear-gradient(267deg , #DA7C25 0.36%, #B923E1 102.66%);
-    font-size: 22px;
-    cursor: pointer;
-    transition: 0.5s;
+/* Menu */
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 45px; /* reduced */
+  font-size: 16px; /* scaled down */
 }
 
-.nav-connect:hover{
-    transform: scale(1.05);
+/* Menu items */
+.nav-menu li {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  cursor: pointer;
 }
 
-.nav-menu li{
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    cursor: pointer;
-
-}
-
+/* Active link */
 .nav-menu .active {
   color: #38bdf8;
 }
 
+/* Links */
 .nav-menu a {
   text-decoration: none;
   color: inherit;
 }
 
+/* Connect button */
 .nav-connect {
+  padding: 14px 28px; /* reduced */
+  border-radius: 50px;
+  background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.66%);
+  font-size: 16px;
+  cursor: pointer;
   text-decoration: none;
   color: inherit;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.nav-connect:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(185, 35, 225, 0.35);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .navbar {
+    margin: 8px 80px;
+  }
+
+  .nav-menu {
+    gap: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    margin: 6px 40px;
+  }
+
+  .nav-menu {
+    font-size: 15px;
+    gap: 24px;
+  }
+
+  .nav-connect {
+    padding: 12px 22px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    margin: 6px 20px;
+  }
+
+  .nav-menu {
+    display: none; /* typical mobile behavior */
+  }
 }
