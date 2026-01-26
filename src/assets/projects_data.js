@@ -17,7 +17,7 @@ const projects_Data = [
     title: "Weather App",
     description: "A weather forecasting web app built with API integration to display live weather data and a 5-day outlook.",
     github: "https://github.com/RuntimeTerror001/Weather-Web-Application",
-    live: ""
+    live: "https://weatherweb-application.vercel.app/"
   }
 ];
 
