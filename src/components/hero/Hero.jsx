@@ -16,7 +16,7 @@ function Hero() {
                     experiences and continuously learning new technologies.
                 </p>
                <div className="hero-actions">
-  <a href="contact" className="hero-connect">Connect With Me</a>
+  <a href="/contact" className="hero-connect">Connect With Me</a>
 <a 
   href="https://drive.google.com/file/d/1ksR8EJhN9Zk5jHsMtugYAboqxT4EJnZg/view?usp=sharing"
   target="_blank"
