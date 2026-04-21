@@ -1,16 +1,123 @@
-# React + Vite
+# Portfolio Website 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website built with React to showcase my work, skills, experience, and projects. This site highlights who I am as a developer and serves as a web presence for potential employers or collaborators.
 
-Currently, two official plugins are available:
+### Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Check out the deployed version:
+```
+🔗 https://portfolio-website-eight-eosin-16.vercel.app
+```
 
-## React Compiler
+## Contributing
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Contributions are welcome! If you’d like to improve or customize this portfolio further:
 
-## Expanding the ESLint configuration
+Fork the repo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Create a new branch (feature/name)
+
+Commit your changes
+
+Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License — see the LICENSE file for details.
+
+
+
+
+## About
+
+This portfolio website is designed to:
+
+Introduce who I am
+
+Present my technical skills
+
+Showcase featured projects
+
+Provide contact information
+
+It’s built using modern React principles with reusable components and a responsive layout that looks great on all screen sizes.
+
+## Features
+
+🏠 Home section with introduction
+
+💡 About section to describe background and skills
+
+📁 Projects section with featured work
+
+📝 Contact form or contact links
+
+📱 Fully responsive UI
+
+📦 Built with React and modern frontend tools
+
+##  Built With
+
+React – JavaScript library for building UIs
+
+JavaScript (ES6+) – App logic
+
+HTML5 – Semantic structure
+
+CSS3 – Styling and layout
+
+## Project Setup
+
+Clone and run:
+
+Clone the repository
+
+```
+git clone https://github.com/RuntimeTerror001/Portfolio_Website.git
+cd Portfolio_Website
+```
+
+Install dependencies
+```
+npm install
+```
+
+Start the development server
+```
+npm run dev
+```
+
+Open your browser and go to:
+```
+http://localhost:3000
+```
+## How It Works
+
+This project uses a component-based structure with React. Each section (Home, About, Projects, Contact) is typically a separate component. You can customize content easily by editing text, images, and links in the relevant files.
+
+## Customizing Your Info
+
+Update your personal details in the relevant React component files:
+
+Your name and headline
+
+About description
+
+Skills
+
+Projects and links
+
+Contact information
+
+These are usually found in component files under the src/components/ folder.
+
+(Adjust exactly where based on your structure.)
+
+
+
+
+
+## Author
+
+Built with ❤️ by RuntimeTerror001
+
