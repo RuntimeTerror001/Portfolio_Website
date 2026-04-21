@@ -18,7 +18,14 @@ const projects_Data = [
     description: "A weather forecasting web app built with API integration to display live weather data and a 5-day outlook.",
     github: "https://github.com/RuntimeTerror001/Weather-Web-Application",
     live: "https://weatherweb-application.vercel.app/"
-  }
+  },
+  {
+  sno: 3,
+  title: "GigClaimSafe",
+  description: "An AI-powered parametric insurance platform for gig workers that detects real-world disruptions like weather and pollution to automatically trigger claims and provide income protection.",
+  github: "https://github.com/RuntimeTerror001/Guidewire_Debug-Devils_2026",
+  live: "https://guidewire-debug-devils-2026.vercel.app/"
+}
 ];
 
 export default projects_Data;  
