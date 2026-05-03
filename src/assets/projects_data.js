@@ -29,7 +29,7 @@ const projects_Data = [
 {
   sno: 4,
   title: "Althera – Cognitive Health Monitor",
-  description: "An end-to-end cognitive health monitoring dashboard for early detection of Alzheimer's and cognitive decline, integrating live physiological sensor data (Heart Rate, SpO2, Motion) via ESP8266/Arduino, a Random Forest ML pipeline to predict cognitive scores (0–100), real-time facial emotion detection via OpenCV, and a local Generative AI (LLaMA 3.2) module for personalized health reports — all within a modular Streamlit dashboard.",
+  description: "Althera is a comprehensive, real-time cognitive monitoring dashboard designed as an early indicator detection system for Alzheimer's and general cognitive decline.",
   github: "https://github.com/RuntimeTerror001/Althera-Minor-Project",
   live: ""
 }
