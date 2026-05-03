@@ -25,6 +25,13 @@ const projects_Data = [
   description: "An AI-powered parametric insurance platform for gig workers that detects real-world disruptions like weather and pollution to automatically trigger claims and provide income protection.",
   github: "https://github.com/RuntimeTerror001/Guidewire_Debug-Devils_2026",
   live: "https://guidewire-debug-devils-2026.vercel.app/"
+},
+{
+  sno: 4,
+  title: "Althera – Cognitive Health Monitor",
+  description: "An end-to-end cognitive health monitoring dashboard for early detection of Alzheimer's and cognitive decline, integrating live physiological sensor data (Heart Rate, SpO2, Motion) via ESP8266/Arduino, a Random Forest ML pipeline to predict cognitive scores (0–100), real-time facial emotion detection via OpenCV, and a local Generative AI (LLaMA 3.2) module for personalized health reports — all within a modular Streamlit dashboard.",
+  github: "https://github.com/RuntimeTerror001/Althera-Minor-Project",
+  live: ""
 }
 ];
 
